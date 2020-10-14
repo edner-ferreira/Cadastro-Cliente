@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    layout:decorator="LayoutPadrao">
+    
+<head>
+	<title>Home</title>
+
+</head>
+<section layout:fragment="content">
+	
+	<p>Inicio</p>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<div class="clearfix">
+				<h1 class="panel-title aw-titulo-panel">Home</h1>
+				<a class="btn btn-link aw-link-panel" href="/clientes/novo">Novo cliente</a>
+				<a class="btn btn-link aw-link-panel" href="/clientes/pesquisarClientes">Pesquisar clientes</a>
+			</div>
+		</div>
+</section>
+</html>
